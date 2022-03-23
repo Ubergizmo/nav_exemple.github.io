@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: url(images/dunkb&w.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.nav_list{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_items{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav_items:hover a{
+    color: orange;
+}
+
+.nav_items a{
+    color:black;
+    letter-spacing: 1.2px;
+}
+
+.nav_items:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+/*--------------------------------------------------------------------------*/
+
